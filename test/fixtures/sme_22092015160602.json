@@ -1,0 +1,383 @@
+{
+    "formId": "farmer_form",
+    "deviceId": "358310068654699",
+    "start": "2015-09-16T19:35:31.027Z",
+    "end": "2015-09-16T20:05:45.169Z",
+    "instanceId": "ce3fa7e1-4599-4bec-a4b0-0bba13bd130a",
+    "data": {
+        "start": "2015-09-16T15:35:31.027+03",
+        "end": "2015-09-16T16:05:45.169+03",
+        "today": "2015-09-16",
+        "deviceid": 358310068654699,
+        "farmer_information": {
+            "personal_details": {
+                "surname": "Komu",
+                "name": "Joel",
+                "gender": "male",
+                "age": 70,
+                "nationality": "Kenyan",
+                "country": "Kenya",
+                "town": "Mavindini - Mtito Andei ",
+                "mob_phone": "+254715576360"
+            },
+            "farm_details": {
+                "agric-activities": "pulses",
+                "own_land": 4,
+                "agric-activities_start_date": "2013-07-16",
+                "animal_you_keep_repeat_count": 0
+            },
+            "business_details": {
+                "sme_name": "Sweet & Dry",
+                "agric_activity_with_SME": "agro_inputs_supplier pulses",
+                "partnership_period": "2013-07-16"
+            },
+            "ownership_structure": {
+                "business_owner": "sole_proprietorship",
+                "any_family_member_as_business_operator": "yes",
+                "future_business_owner": "Wife and children"
+            }
+        },
+        "farm_business_operations": {
+            "products_inputs": {
+                "agric_activity_benefit_question": {
+                    "agric_activity_benefit": "income more_food",
+                    "_3_agric_activity_benefit": "income more_food",
+                    "agric_activity_benefit_3": "income more_food assured_market"
+                },
+                "land_size_for_SME_question": {
+                    "land_size_for_SME": 4,
+                    "_3_land_size_for_SME": 0,
+                    "land_size_for_SME_3": 4
+                },
+                "produce_measurement_unit": "kilogram",
+                "total_yield_size_question": {
+                    "total_yield_size": 180,
+                    "_3_total_yield_size": 0,
+                    "total_yield_size_3": 250
+                },
+                "yield_sold_to_SME_question": {
+                    "yield_sold_to_SME": 0,
+                    "_3_yield_sold_to_SME": 0,
+                    "yield_sold_to_SME_3": 200
+                },
+                "percentage_distribution_of_the_rest_of_production_question": {
+                    "distribution_to_own_household": 180,
+                    "distribution_to_other_household": 0,
+                    "distribution_to_other_SME": 0,
+                    "distribution_to_traders": 0,
+                    "distribution_to_others": 0
+                },
+                "_3_percentage_distribution_of_the_rest_of_production_question": {
+                    "_3_distribution_to_own_household": 0,
+                    "_3_distribution_to_other_household": 0,
+                    "_3_distribution_to_other_SME": 0,
+                    "_3_distribution_to_traders": 0,
+                    "_3_distribution_to_others": 0
+                },
+                "percentage_distribution_of_the_rest_of_production_3_question": {
+                    "distribution_to_own_household_3": 50,
+                    "distribution_to_other_household_3": 0,
+                    "distribution_to_other_SME_3": 0,
+                    "distribution_to_traders_3": 0,
+                    "distribution_to_others_3": 0
+                },
+                "agro_inputs_used_question": {
+                    "agro_inputs_used": "pesticides seeds",
+                    "_3_agro_inputs_used": "other_agro_inputs",
+                    "agro_inputs_used_3": "pesticides seeds"
+                },
+                "other_agro_inputs_used_question": {
+                    "_3_other_agro_inputs_used": "None "
+                },
+                "agroinputs_SME_assist_you_with_question": {
+                    "agroinputs_SME_assist_you_with": "pesticides seeds",
+                    "_3_agroinputs_SME_assist_you_with": "other_agro_inputs",
+                    "agroinputs_SME_assist_you_with_3": "pesticides seeds"
+                },
+                "other_agroinputs_SME_assist_you_with_question": {
+                    "_3_other_agroinputs_SME_assist_you_with": "None"
+                },
+                "SME_terms_on_assisting_farmer_acquiring_agroinputs_question": {
+                    "SME_terms_on_assisting_farmer_acquiring_agroinputs": "Credit",
+                    "_3_SME_terms_on_assisting_farmer_acquiring_agroinputs": "None",
+                    "SME_terms_on_assisting_farmer_acquiring_agroinputs_3": "Credit"
+                },
+                "services_from_SME_question": {
+                    "services_from_SME": "extention_services technical_assistance_services credit_scheme_services",
+                    "_3_services_from_SME": "other_services_from_SME",
+                    "services_from_SME_3": "extention_services technical_assistance_services credit_scheme_services"
+                },
+                "other_services_from_SME_question": {
+                    "_3_other_services_from_SME": "None"
+                },
+                "factor_to_determine_price_question": {
+                    "factor_to_determine_price": "market_price",
+                    "_3_factor_to_determine_price": "other_factor_determine_price",
+                    "factor_to_determine_price_3": "market_price"
+                },
+                "other_factor_to_determine_price_question": {
+                    "_3_other_factor_to_determine_price": "None"
+                },
+                "produce_selling_methods_question": {
+                    "produce_selling_methods": "collection_centers",
+                    "_3_produce_selling_methods": "other_selling_method",
+                    "produce_selling_methods_3": "collection_centers"
+                },
+                "other_produce_selling_methods_question": {
+                    "_3_other_produce_selling_methods": "None"
+                },
+                "sales_strategy_question": {
+                    "sales_strategy": "contract_agreement",
+                    "_3_sales_strategy": "other_sales_strategy",
+                    "sales_strategy_3": "contract_agreement"
+                },
+                "other_sales_strategy_question": {
+                    "_3_other_sales_strategy": "None"
+                }
+            },
+            "profit_loss": {
+                "how_much_SME_pay_farmer_question": {
+                    "how_much_SME_pay_farmer": 0,
+                    "_3_how_much_SME_pay_farmer": 0,
+                    "how_much_SME_pay_farmer_3": 2000
+                },
+                "labour_cost_question": {
+                    "labour_cost": 36,
+                    "_3_labour_cost": 0,
+                    "labour_cost_3": 120
+                },
+                "inputs_cost_question": {
+                    "inputs_cost": 6,
+                    "_3_inputs_cost": 0,
+                    "inputs_cost_3": 20
+                },
+                "transport_cost_question": {
+                    "transport_cost": 0,
+                    "_3_transport_cost": 0,
+                    "transport_cost_3": 10
+                },
+                "postharvest_handling_cost_question": {
+                    "postharvest_handling_cost": 0,
+                    "_3_postharvest_handling_cost": 0,
+                    "postharvest_handling_cost_3": 0
+                },
+                "land_hire_cost_question": {
+                    "land_hire_cost": 0,
+                    "_3_land_hire_cost": 0,
+                    "land_hire_cost_3": 0
+                },
+                "machine_use_cost_question": {
+                    "machine_use_cost": 0,
+                    "_3_machine_use_cost": 0,
+                    "machine_use_cost_3": 0
+                },
+                "other_cost_amount_question": {
+                    "other_cost_amount": 0,
+                    "_3_other_cost_amount": 0,
+                    "other_cost_amount_3": 0
+                },
+                "risk_sharing_conditions_question": {
+                    "risk_sharing_conditions": "None ",
+                    "_3_risk_sharing_conditions": "None ",
+                    "risk_sharing_conditions_3": "None "
+                },
+                "assets_question": {
+                    "assets": "land",
+                    "_3_assets": "land",
+                    "assets_3": "land"
+                },
+                "loan_taken_question": {
+                    "loan_taken": 0,
+                    "_3_loan_taken": 0,
+                    "loan_taken_3": 100
+                },
+                "loan_purpose_question": {
+                    "loan_purpose_3": "Seeds and pesticides"
+                },
+                "loan_cost_question": {
+                    "loan_cost_3": 0
+                },
+                "taxation_cost_question": {
+                    "taxation_cost": 0,
+                    "_3_taxation_cost": 0,
+                    "taxation_cost_3": 0
+                },
+                "house_hold_profit_beneficiary_question": {
+                    "house_hold_profit_beneficiary": "wife husband children",
+                    "_3_house_hold_profit_beneficiary": "other_household_member",
+                    "house_hold_profit_beneficiary_3": "wife husband children"
+                },
+                "other_house_hold_profit_beneficiary": {
+                    "_3_other_house_hold_profit_beneficiary": "None "
+                }
+            },
+            "technology_innovation_information": {
+                "method_farmer_used_to_acquire_new_technology_question": {
+                    "method_farmer_used_to_acquire_new_technology": "training_by_SME other_trainings",
+                    "_3_method_farmer_used_to_acquire_new_technology": "other_method_to_acquire_new_technology",
+                    "method_farmer_used_to_acquire_new_technology_3": "training_by_SME other_trainings"
+                },
+                "other_method_farmer_used_to_acquire_new_technology_question": {
+                    "_3_other_method_farmer_used_to_acquire_new_technology": "None"
+                },
+                "new_technology_acquired_to_improve_production_question": {
+                    "new_technology_acquired_to_improve_production": "Training and seed selection",
+                    "_3_new_technology_acquired_to_improve_production": "None",
+                    "new_technology_acquired_to_improve_production_3": "Training"
+                },
+                "technology_SME_provide_you_with_question": {
+                    "technology_SME_provide_you_with": "Training",
+                    "_3_technology_SME_provide_you_with": "None",
+                    "technology_SME_provide_you_with_3": "Training"
+                },
+                "is_GPA_trained_question": {
+                    "is_GPA_trained": "yes",
+                    "_3_is_GPA_trained": "no",
+                    "is_GPA_trained_3": "yes"
+                },
+                "SME_provide_GAP_training_question": {
+                    "SME_provide_GAP_training": "yes",
+                    "_3_SME_provide_GAP_training": "no",
+                    "SME_provide_GAP_training_3": "yes"
+                },
+                "produce_delivery_to_SME_method_question": {
+                    "produce_delivery_to_SME_method": "SME_transport",
+                    "_3_produce_delivery_to_SME_method": "other_produce_delivery_method",
+                    "produce_delivery_to_SME_method_3": "SME_transport"
+                },
+                "other_produce_delivery_to_SME_method_question": {
+                    "_3_other_produce_delivery_to_SME_method": "None"
+                }
+            },
+            "cashflow_financing_investment": {
+                "_3_where_do_you_get_cash": {
+                    "_3_cash_from_saving_credit": 100
+                }
+            },
+            "market_competition": {
+                "business_unfair_advantage_question": {
+                    "business_unfair_advantage": "quality_of_produce timeliness",
+                    "_3_business_unfair_advantage": "other_business_unfair_advantage",
+                    "business_unfair_advantage_3": "quality_of_produce timeliness"
+                },
+                "other_business_unfair_advantage_question": {
+                    "_3_other_business_unfair_advantage": "None"
+                }
+            }
+        },
+        "internal_farm_company_aspects": {
+            "monitoring_evaluation": {
+                "records_type_question": {
+                    "records_type": "cost_and_expenses income_records",
+                    "_3_records_type": "other_records_type",
+                    "records_type_3": "cost_and_expenses income_records"
+                },
+                "other_records_type_question": {
+                    "_3_other_records_type": "None "
+                }
+            },
+            "management_personnel": {
+                "agric_activity_key_persons_involved_question": {
+                    "agric_activity_key_persons_involved": "wife",
+                    "_3_agric_activity_key_persons_involved": "wife",
+                    "agric_activity_key_persons_involved_3": "wife"
+                }
+            }
+        },
+        "impact_as_a_result_of_sourcing_to_SME": {
+            "direct_development_impact": {
+                "direct_job_number_question": {
+                    "direct_job_number": 0,
+                    "_3_direct_job_number": 0,
+                    "direct_job_number_3": 0
+                }
+            },
+            "indirect_development_impact": {
+                "community_contribution_question": {
+                    "community_contribution": "sharing_of_information",
+                    "_3_community_contribution": "other_community_contribution",
+                    "community_contribution_3": "sharing_of_information selling_produce"
+                },
+                "other_community_contribution_question": {
+                    "_3_other_community_contribution": "None "
+                },
+                "support_youth_practising_agribusiness_how_question": {
+                    "support_youth_practising_agribusiness_how": "Information sharing",
+                    "_3_support_youth_practising_agribusiness_how": "None",
+                    "support_youth_practising_agribusiness_how_3": "Information sharing "
+                },
+                "farmer_association_membership_benefits_question": {
+                    "farmer_association_membership_benefits": "collective_marketing training",
+                    "_3_farmer_association_membership_benefits": "other_farmer_association_benefits",
+                    "farmer_association_membership_benefits_3": "collective_marketing training access_new_market"
+                },
+                "other_farmer_association_membership_benefits_question": {
+                    "_3_other_farmer_association_membership_benefits": "None "
+                },
+                "agric_activities_assistance_to_women_question": {
+                    "agric_activities_assistance_to_women": "access_to_food market_awareness",
+                    "_3_agric_activities_assistance_to_women": "other_assistance_to_women_from_agric_activities",
+                    "agric_activities_assistance_to_women_3": "access_to_food market_awareness"
+                },
+                "other_women_benefit_from_agric_activities_how_question": {
+                    "_3_other_agric_activities_assistance_to_women": "None "
+                }
+            },
+            "food_security": {
+                "daily_supply_of_sufficient_food_question": {
+                    "buy_daily_supply_of_sufficient_food_question": {
+                        "buy_daily_supply_of_sufficient_food": "yes",
+                        "_3_buy_daily_supply_of_sufficient_food": "yes",
+                        "buy_daily_supply_of_sufficient_food_3": "yes"
+                    },
+                    "produce_daily_supply_of_sufficient_food_question": {
+                        "produce_daily_supply_of_sufficient_food": "no",
+                        "_3_produce_daily_supply_of_sufficient_food": "no",
+                        "produce_daily_supply_of_sufficient_food_3": "yes"
+                    },
+                    "sell_daily_supply_of_sufficient_food_question": {
+                        "sell_daily_supply_of_sufficient_food": "no",
+                        "_3_sell_daily_supply_of_sufficient_food": "no",
+                        "sell_daily_supply_of_sufficient_food_3": "yes"
+                    }
+                },
+                "type_of_food_available_question": {
+                    "type_of_food_available": "vegetables fruits wheat_maize_teff_soghum_millet_rice dairy_product",
+                    "_3_type_of_food_available": "vegetables fruits wheat_maize_teff_soghum_millet_rice dairy_product",
+                    "type_of_food_available_3": "vegetables fruits wheat_maize_teff_soghum_millet_rice dairy_product"
+                },
+                "SME_assist_ensuring_food_availability_how_question": {
+                    "SME_assist_ensuring_food_availability_how": "Training",
+                    "_3_SME_assist_ensuring_food_availability_how": "None ",
+                    "SME_assist_ensuring_food_availability_how_3": "Training"
+                },
+                "afford_food_throughout_the_year_how_question": {
+                    "afford_food_throughout_the_year_how": "Buying from other traders",
+                    "_3_afford_food_throughout_the_year_how": "Buying from other traders",
+                    "afford_food_throughout_the_year_how_3": "Own production and buying from other traders"
+                }
+            }
+        },
+        "other_information": {
+            "ensure_agric_activity_success_how_question": {
+                "ensure_agric_activity_success_how": "Training, good weather, availability of funds",
+                "_3_ensure_agric_activity_success_how": "Availability of funds",
+                "ensure_agric_activity_success_how_3": "Training, good weather and availability of funds"
+            },
+            "SME_growth_impact_your_business_question": {
+                "SME_growth_impact_your_business": "Increased income and production, quality seed selection",
+                "_3_SME_growth_impact_your_business": "None",
+                "SME_growth_impact_your_business_3": "Increased income and production. Quality seed selection"
+            }
+        },
+        "meta": {
+            "instanceId": "uuid:ce3fa7e1-4599-4bec-a4b0-0bba13bd130a",
+            "instanceName": "Joel  Komu(Mavindini - Mtito Andei )",
+            "formId": "farmer_form"
+        }
+    },
+    "xml": "<?xml version='1.0' ?><Farmer id=\"farmer_form\"><start>2015-09-16T15:35:31.027+03</start><end>2015-09-16T16:05:45.169+03</end><today>2015-09-16</today><deviceid>358310068654699</deviceid><simserial /><phonenumber /><farmer_information><personal_details><surname>Komu</surname><name>Joel</name><gender>male</gender><age>70</age><nationality>Kenyan</nationality><country>Kenya</country><town>Mavindini - Mtito Andei </town><mob_phone>+254715576360</mob_phone></personal_details><farm_details><agric-activities>pulses</agric-activities><own_land>4.0</own_land><agric-activities_start_date>2013-07-16</agric-activities_start_date><animal_you_keep_repeat_count>0</animal_you_keep_repeat_count></farm_details><business_details><sme_name>Sweet &amp; Dry</sme_name><agric_activity_with_SME>agro_inputs_supplier pulses</agric_activity_with_SME><partnership_period>2013-07-16</partnership_period></business_details><ownership_structure><business_owner>sole_proprietorship</business_owner><any_family_member_as_business_operator>yes</any_family_member_as_business_operator><future_business_owner>Wife and children</future_business_owner></ownership_structure></farmer_information><farm_business_operations><products_inputs><agric_activity_benefit_question><generated_note_name_54 /><agric_activity_benefit>income more_food</agric_activity_benefit><_3_agric_activity_benefit>income more_food</_3_agric_activity_benefit><agric_activity_benefit_3>income more_food assured_market</agric_activity_benefit_3></agric_activity_benefit_question><land_size_for_SME_question><generated_note_name_68 /><land_size_for_SME>4.0</land_size_for_SME><_3_land_size_for_SME>0.0</_3_land_size_for_SME><land_size_for_SME_3>4.0</land_size_for_SME_3></land_size_for_SME_question><produce_measurement_unit>kilogram</produce_measurement_unit><total_yield_size_question><generated_note_name_76 /><total_yield_size>180.0</total_yield_size><_3_total_yield_size>0.0</_3_total_yield_size><total_yield_size_3>250.0</total_yield_size_3></total_yield_size_question><yield_sold_to_SME_question><generated_note_name_83 /><yield_sold_to_SME>0.0</yield_sold_to_SME><_3_yield_sold_to_SME>0.0</_3_yield_sold_to_SME><yield_sold_to_SME_3>200.0</yield_sold_to_SME_3></yield_sold_to_SME_question><percentage_distribution_of_the_rest_of_production_question><generated_note_name_90 /><distribution_to_own_household>180.0</distribution_to_own_household><distribution_to_other_household>0.0</distribution_to_other_household><distribution_to_other_SME>0.0</distribution_to_other_SME><distribution_to_traders>0.0</distribution_to_traders><distribution_to_others>0.0</distribution_to_others></percentage_distribution_of_the_rest_of_production_question><_3_percentage_distribution_of_the_rest_of_production_question><generated_note_name_99 /><_3_distribution_to_own_household>0.0</_3_distribution_to_own_household><_3_distribution_to_other_household>0.0</_3_distribution_to_other_household><_3_distribution_to_other_SME>0.0</_3_distribution_to_other_SME><_3_distribution_to_traders>0.0</_3_distribution_to_traders><_3_distribution_to_others>0.0</_3_distribution_to_others></_3_percentage_distribution_of_the_rest_of_production_question><percentage_distribution_of_the_rest_of_production_3_question><generated_note_name_108 /><distribution_to_own_household_3>50.0</distribution_to_own_household_3><distribution_to_other_household_3>0.0</distribution_to_other_household_3><distribution_to_other_SME_3>0.0</distribution_to_other_SME_3><distribution_to_traders_3>0.0</distribution_to_traders_3><distribution_to_others_3>0.0</distribution_to_others_3></percentage_distribution_of_the_rest_of_production_3_question><agro_inputs_used_question><generated_note_name_117 /><agro_inputs_used>pesticides seeds</agro_inputs_used><_3_agro_inputs_used>other_agro_inputs</_3_agro_inputs_used><agro_inputs_used_3>pesticides seeds</agro_inputs_used_3></agro_inputs_used_question><other_agro_inputs_used_question><generated_note_name_124 /><_3_other_agro_inputs_used>None </_3_other_agro_inputs_used></other_agro_inputs_used_question><agroinputs_SME_assist_you_with_question><generated_note_name_131 /><agroinputs_SME_assist_you_with>pesticides seeds</agroinputs_SME_assist_you_with><_3_agroinputs_SME_assist_you_with>other_agro_inputs</_3_agroinputs_SME_assist_you_with><agroinputs_SME_assist_you_with_3>pesticides seeds</agroinputs_SME_assist_you_with_3></agroinputs_SME_assist_you_with_question><other_agroinputs_SME_assist_you_with_question><generated_note_name_138 /><_3_other_agroinputs_SME_assist_you_with>None</_3_other_agroinputs_SME_assist_you_with></other_agroinputs_SME_assist_you_with_question><SME_terms_on_assisting_farmer_acquiring_agroinputs_question><generated_note_name_145 /><SME_terms_on_assisting_farmer_acquiring_agroinputs>Credit</SME_terms_on_assisting_farmer_acquiring_agroinputs><_3_SME_terms_on_assisting_farmer_acquiring_agroinputs>None</_3_SME_terms_on_assisting_farmer_acquiring_agroinputs><SME_terms_on_assisting_farmer_acquiring_agroinputs_3>Credit</SME_terms_on_assisting_farmer_acquiring_agroinputs_3></SME_terms_on_assisting_farmer_acquiring_agroinputs_question><services_from_SME_question><generated_note_name_152 /><services_from_SME>extention_services technical_assistance_services credit_scheme_services</services_from_SME><_3_services_from_SME>other_services_from_SME</_3_services_from_SME><services_from_SME_3>extention_services technical_assistance_services credit_scheme_services</services_from_SME_3></services_from_SME_question><other_services_from_SME_question><generated_note_name_159 /><_3_other_services_from_SME>None</_3_other_services_from_SME></other_services_from_SME_question><factor_to_determine_price_question><generated_note_name_166 /><factor_to_determine_price>market_price</factor_to_determine_price><_3_factor_to_determine_price>other_factor_determine_price</_3_factor_to_determine_price><factor_to_determine_price_3>market_price</factor_to_determine_price_3></factor_to_determine_price_question><other_factor_to_determine_price_question><generated_note_name_173 /><_3_other_factor_to_determine_price>None</_3_other_factor_to_determine_price></other_factor_to_determine_price_question><produce_selling_methods_question><generated_note_name_180 /><produce_selling_methods>collection_centers</produce_selling_methods><_3_produce_selling_methods>other_selling_method</_3_produce_selling_methods><produce_selling_methods_3>collection_centers</produce_selling_methods_3></produce_selling_methods_question><other_produce_selling_methods_question><generated_note_name_187 /><_3_other_produce_selling_methods>None</_3_other_produce_selling_methods></other_produce_selling_methods_question><sales_strategy_question><generated_note_name_195 /><sales_strategy>contract_agreement</sales_strategy><_3_sales_strategy>other_sales_strategy</_3_sales_strategy><sales_strategy_3>contract_agreement</sales_strategy_3></sales_strategy_question><other_sales_strategy_question><generated_note_name_202 /><_3_other_sales_strategy>None</_3_other_sales_strategy></other_sales_strategy_question></products_inputs><profit_loss><how_much_SME_pay_farmer_question><generated_note_name_211 /><how_much_SME_pay_farmer>0.0</how_much_SME_pay_farmer><_3_how_much_SME_pay_farmer>0.0</_3_how_much_SME_pay_farmer><how_much_SME_pay_farmer_3>2000.0</how_much_SME_pay_farmer_3></how_much_SME_pay_farmer_question><labour_cost_question><generated_note_name_220 /><labour_cost>36.0</labour_cost><_3_labour_cost>0.0</_3_labour_cost><labour_cost_3>120.0</labour_cost_3></labour_cost_question><inputs_cost_question><generated_note_name_227 /><inputs_cost>6.0</inputs_cost><_3_inputs_cost>0.0</_3_inputs_cost><inputs_cost_3>20.0</inputs_cost_3></inputs_cost_question><transport_cost_question><generated_note_name_234 /><transport_cost>0.0</transport_cost><_3_transport_cost>0.0</_3_transport_cost><transport_cost_3>10.0</transport_cost_3></transport_cost_question><postharvest_handling_cost_question><generated_note_name_241 /><postharvest_handling_cost>0.0</postharvest_handling_cost><_3_postharvest_handling_cost>0.0</_3_postharvest_handling_cost><postharvest_handling_cost_3>0.0</postharvest_handling_cost_3></postharvest_handling_cost_question><land_hire_cost_question><generated_note_name_248 /><land_hire_cost>0.0</land_hire_cost><_3_land_hire_cost>0.0</_3_land_hire_cost><land_hire_cost_3>0.0</land_hire_cost_3></land_hire_cost_question><machine_use_cost_question><generated_note_name_255 /><machine_use_cost>0.0</machine_use_cost><_3_machine_use_cost>0.0</_3_machine_use_cost><machine_use_cost_3>0.0</machine_use_cost_3></machine_use_cost_question><other_cost_amount_question><generated_note_name_262 /><other_cost_amount>0.0</other_cost_amount><_3_other_cost_amount>0.0</_3_other_cost_amount><other_cost_amount_3>0.0</other_cost_amount_3></other_cost_amount_question><risk_sharing_conditions_question><generated_note_name_276 /><risk_sharing_conditions>None </risk_sharing_conditions><_3_risk_sharing_conditions>None </_3_risk_sharing_conditions><risk_sharing_conditions_3>None </risk_sharing_conditions_3></risk_sharing_conditions_question><assets_question><generated_note_name_283 /><assets>land</assets><_3_assets>land</_3_assets><assets_3>land</assets_3></assets_question><loan_taken_question><generated_note_name_297 /><loan_taken>0.0</loan_taken><_3_loan_taken>0.0</_3_loan_taken><loan_taken_3>100.0</loan_taken_3></loan_taken_question><loan_purpose_question><generated_note_name_304 /><loan_purpose_3>Seeds and pesticides</loan_purpose_3></loan_purpose_question><loan_cost_question><generated_note_name_311 /><loan_cost_3>0.0</loan_cost_3></loan_cost_question><taxation_cost_question><generated_note_name_318 /><taxation_cost>0.0</taxation_cost><_3_taxation_cost>0.0</_3_taxation_cost><taxation_cost_3>0.0</taxation_cost_3></taxation_cost_question><house_hold_profit_beneficiary_question><generated_note_name_325 /><house_hold_profit_beneficiary>wife husband children</house_hold_profit_beneficiary><_3_house_hold_profit_beneficiary>other_household_member</_3_house_hold_profit_beneficiary><house_hold_profit_beneficiary_3>wife husband children</house_hold_profit_beneficiary_3></house_hold_profit_beneficiary_question><other_house_hold_profit_beneficiary><generated_note_name_332 /><_3_other_house_hold_profit_beneficiary>None </_3_other_house_hold_profit_beneficiary></other_house_hold_profit_beneficiary></profit_loss><technology_innovation_information><method_farmer_used_to_acquire_new_technology_question><generated_note_name_341 /><method_farmer_used_to_acquire_new_technology>training_by_SME other_trainings</method_farmer_used_to_acquire_new_technology><_3_method_farmer_used_to_acquire_new_technology>other_method_to_acquire_new_technology</_3_method_farmer_used_to_acquire_new_technology><method_farmer_used_to_acquire_new_technology_3>training_by_SME other_trainings</method_farmer_used_to_acquire_new_technology_3></method_farmer_used_to_acquire_new_technology_question><other_method_farmer_used_to_acquire_new_technology_question><generated_note_name_348 /><_3_other_method_farmer_used_to_acquire_new_technology>None</_3_other_method_farmer_used_to_acquire_new_technology></other_method_farmer_used_to_acquire_new_technology_question><new_technology_acquired_to_improve_production_question><generated_note_name_355 /><new_technology_acquired_to_improve_production>Training and seed selection</new_technology_acquired_to_improve_production><_3_new_technology_acquired_to_improve_production>None</_3_new_technology_acquired_to_improve_production><new_technology_acquired_to_improve_production_3>Training</new_technology_acquired_to_improve_production_3></new_technology_acquired_to_improve_production_question><technology_SME_provide_you_with_question><generated_note_name_362 /><technology_SME_provide_you_with>Training</technology_SME_provide_you_with><_3_technology_SME_provide_you_with>None</_3_technology_SME_provide_you_with><technology_SME_provide_you_with_3>Training</technology_SME_provide_you_with_3></technology_SME_provide_you_with_question><is_GPA_trained_question><generated_note_name_369 /><is_GPA_trained>yes</is_GPA_trained><_3_is_GPA_trained>no</_3_is_GPA_trained><is_GPA_trained_3>yes</is_GPA_trained_3></is_GPA_trained_question><SME_provide_GAP_training_question><generated_note_name_376 /><SME_provide_GAP_training>yes</SME_provide_GAP_training><_3_SME_provide_GAP_training>no</_3_SME_provide_GAP_training><SME_provide_GAP_training_3>yes</SME_provide_GAP_training_3></SME_provide_GAP_training_question><produce_delivery_to_SME_method_question><generated_note_name_383 /><produce_delivery_to_SME_method>SME_transport</produce_delivery_to_SME_method><_3_produce_delivery_to_SME_method>other_produce_delivery_method</_3_produce_delivery_to_SME_method><produce_delivery_to_SME_method_3>SME_transport</produce_delivery_to_SME_method_3></produce_delivery_to_SME_method_question><other_produce_delivery_to_SME_method_question><generated_note_name_390 /><_3_other_produce_delivery_to_SME_method>None</_3_other_produce_delivery_to_SME_method></other_produce_delivery_to_SME_method_question></technology_innovation_information><cashflow_financing_investment><where_do_you_get_cash><generated_note_name_399 /><cash_from_saving_credit /><cash_from_family /><cash_from_bank /><cash_from_own_saving /><cash_from_selling_assets /><cash_from_other_partners /><cash_from_money_lender /><cash_grants /><cash_from_SME_financing /><cash_from_other_sources /></where_do_you_get_cash><_3_where_do_you_get_cash><generated_note_name_413 /><_3_cash_from_saving_credit>100.0</_3_cash_from_saving_credit><_3_cash_from_family /><_3_cash_from_bank /><_3_cash_from_own_saving /><_3_cash_from_selling_assets /><_3_cash_from_other_partners /><_3_cash_from_money_lender /><_3_cash_grants /><_3_cash_from_SME_financing /><_3_cash_from_other_sources /></_3_where_do_you_get_cash><where_do_you_get_cash_3><generated_note_name_427 /><cash_from_saving_credit_3 /><cash_from_family_3 /><cash_from_bank_3 /><cash_from_own_saving_3 /><cash_from_selling_assets_3 /><cash_from_other_partners_3 /><cash_from_money_lender_3 /><cash_grants_3 /><cash_from_SME_financing_3 /><cash_from_other_sources_3 /></where_do_you_get_cash_3></cashflow_financing_investment><market_competition><business_unfair_advantage_question><generated_note_name_443 /><business_unfair_advantage>quality_of_produce timeliness</business_unfair_advantage><_3_business_unfair_advantage>other_business_unfair_advantage</_3_business_unfair_advantage><business_unfair_advantage_3>quality_of_produce timeliness</business_unfair_advantage_3></business_unfair_advantage_question><other_business_unfair_advantage_question><generated_note_name_450 /><_3_other_business_unfair_advantage>None</_3_other_business_unfair_advantage></other_business_unfair_advantage_question></market_competition></farm_business_operations><internal_farm_company_aspects><monitoring_evaluation><records_type_question><generated_note_name_461 /><records_type>cost_and_expenses income_records</records_type><_3_records_type>other_records_type</_3_records_type><records_type_3>cost_and_expenses income_records</records_type_3></records_type_question><other_records_type_question><generated_note_name_468 /><_3_other_records_type>None </_3_other_records_type></other_records_type_question></monitoring_evaluation><management_personnel><agric_activity_key_persons_involved_question><generated_note_name_477 /><agric_activity_key_persons_involved>wife</agric_activity_key_persons_involved><_3_agric_activity_key_persons_involved>wife</_3_agric_activity_key_persons_involved><agric_activity_key_persons_involved_3>wife</agric_activity_key_persons_involved_3></agric_activity_key_persons_involved_question></management_personnel></internal_farm_company_aspects><impact_as_a_result_of_sourcing_to_SME><direct_development_impact><direct_job_number_question><generated_note_name_495 /><direct_job_number>0</direct_job_number><_3_direct_job_number>0</_3_direct_job_number><direct_job_number_3>0</direct_job_number_3></direct_job_number_question></direct_development_impact><indirect_development_impact><community_contribution_question><generated_note_name_532 /><community_contribution>sharing_of_information</community_contribution><_3_community_contribution>other_community_contribution</_3_community_contribution><community_contribution_3>sharing_of_information selling_produce</community_contribution_3></community_contribution_question><other_community_contribution_question><generated_note_name_539 /><_3_other_community_contribution>None </_3_other_community_contribution></other_community_contribution_question><support_youth_practising_agribusiness_how_question><generated_note_name_546 /><support_youth_practising_agribusiness_how>Information sharing</support_youth_practising_agribusiness_how><_3_support_youth_practising_agribusiness_how>None</_3_support_youth_practising_agribusiness_how><support_youth_practising_agribusiness_how_3>Information sharing </support_youth_practising_agribusiness_how_3></support_youth_practising_agribusiness_how_question><farmer_association_membership_benefits_question><generated_note_name_553 /><farmer_association_membership_benefits>collective_marketing training</farmer_association_membership_benefits><_3_farmer_association_membership_benefits>other_farmer_association_benefits</_3_farmer_association_membership_benefits><farmer_association_membership_benefits_3>collective_marketing training access_new_market</farmer_association_membership_benefits_3></farmer_association_membership_benefits_question><other_farmer_association_membership_benefits_question><generated_note_name_560 /><_3_other_farmer_association_membership_benefits>None </_3_other_farmer_association_membership_benefits></other_farmer_association_membership_benefits_question><agric_activities_assistance_to_women_question><generated_note_name_567 /><agric_activities_assistance_to_women>access_to_food market_awareness</agric_activities_assistance_to_women><_3_agric_activities_assistance_to_women>other_assistance_to_women_from_agric_activities</_3_agric_activities_assistance_to_women><agric_activities_assistance_to_women_3>access_to_food market_awareness</agric_activities_assistance_to_women_3></agric_activities_assistance_to_women_question><other_women_benefit_from_agric_activities_how_question><generated_note_name_574 /><_3_other_agric_activities_assistance_to_women>None </_3_other_agric_activities_assistance_to_women></other_women_benefit_from_agric_activities_how_question></indirect_development_impact><food_security><daily_supply_of_sufficient_food_question><generated_note_name_583 /><buy_daily_supply_of_sufficient_food_question><generated_note_name_585 /><buy_daily_supply_of_sufficient_food>yes</buy_daily_supply_of_sufficient_food><_3_buy_daily_supply_of_sufficient_food>yes</_3_buy_daily_supply_of_sufficient_food><buy_daily_supply_of_sufficient_food_3>yes</buy_daily_supply_of_sufficient_food_3></buy_daily_supply_of_sufficient_food_question><produce_daily_supply_of_sufficient_food_question><generated_note_name_592 /><produce_daily_supply_of_sufficient_food>no</produce_daily_supply_of_sufficient_food><_3_produce_daily_supply_of_sufficient_food>no</_3_produce_daily_supply_of_sufficient_food><produce_daily_supply_of_sufficient_food_3>yes</produce_daily_supply_of_sufficient_food_3></produce_daily_supply_of_sufficient_food_question><sell_daily_supply_of_sufficient_food_question><generated_note_name_599 /><sell_daily_supply_of_sufficient_food>no</sell_daily_supply_of_sufficient_food><_3_sell_daily_supply_of_sufficient_food>no</_3_sell_daily_supply_of_sufficient_food><sell_daily_supply_of_sufficient_food_3>yes</sell_daily_supply_of_sufficient_food_3></sell_daily_supply_of_sufficient_food_question></daily_supply_of_sufficient_food_question><type_of_food_available_question><generated_note_name_607 /><type_of_food_available>vegetables fruits wheat_maize_teff_soghum_millet_rice dairy_product</type_of_food_available><_3_type_of_food_available>vegetables fruits wheat_maize_teff_soghum_millet_rice dairy_product</_3_type_of_food_available><type_of_food_available_3>vegetables fruits wheat_maize_teff_soghum_millet_rice dairy_product</type_of_food_available_3></type_of_food_available_question><SME_assist_ensuring_food_availability_how_question><generated_note_name_621 /><SME_assist_ensuring_food_availability_how>Training</SME_assist_ensuring_food_availability_how><_3_SME_assist_ensuring_food_availability_how>None </_3_SME_assist_ensuring_food_availability_how><SME_assist_ensuring_food_availability_how_3>Training</SME_assist_ensuring_food_availability_how_3></SME_assist_ensuring_food_availability_how_question><afford_food_throughout_the_year_how_question><generated_note_name_628 /><afford_food_throughout_the_year_how>Buying from other traders</afford_food_throughout_the_year_how><_3_afford_food_throughout_the_year_how>Buying from other traders</_3_afford_food_throughout_the_year_how><afford_food_throughout_the_year_how_3>Own production and buying from other traders</afford_food_throughout_the_year_how_3></afford_food_throughout_the_year_how_question></food_security></impact_as_a_result_of_sourcing_to_SME><other_information><ensure_agric_activity_success_how_question><generated_note_name_639 /><ensure_agric_activity_success_how>Training, good weather, availability of funds</ensure_agric_activity_success_how><_3_ensure_agric_activity_success_how>Availability of funds</_3_ensure_agric_activity_success_how><ensure_agric_activity_success_how_3>Training, good weather and availability of funds</ensure_agric_activity_success_how_3></ensure_agric_activity_success_how_question><SME_growth_impact_your_business_question><generated_note_name_646 /><SME_growth_impact_your_business>Increased income and production, quality seed selection</SME_growth_impact_your_business><_3_SME_growth_impact_your_business>None</_3_SME_growth_impact_your_business><SME_growth_impact_your_business_3>Increased income and production. Quality seed selection</SME_growth_impact_your_business_3></SME_growth_impact_your_business_question></other_information><questionnaire_location /><meta><instanceID>uuid:ce3fa7e1-4599-4bec-a4b0-0bba13bd130a</instanceID><instanceName>Joel  Komu(Mavindini - Mtito Andei )</instanceName></meta></Farmer>",
+    "_id": "5601523af7e4cde7744ffdc7",
+    "updatedAt": "2015-09-22T13:06:02.853Z",
+    "createdAt": "2015-09-22T13:06:02.853Z"
+}
