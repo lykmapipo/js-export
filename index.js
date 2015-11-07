@@ -1,8 +1,11 @@
 'use strict';
 
 //dependencies
+var path = require('path');
 var _ = require('lodash');
 
+//load default engines
+var excel = require(path.join(__dirname, 'lib', 'excel'));
 
 /**
  * @constructor
@@ -21,6 +24,9 @@ function Export(data, options) {
 
     //bind data
     this.data = data;
+
+    //set default engines
+    this.use('excel', excel);
 
 }
 
