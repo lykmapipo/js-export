@@ -24,6 +24,34 @@ app.get('/exports', function(request, response){
 });
 ```
 
+## Plugin Export Engine
+`js-export` support additional export engine through plugins. To add new export engine do as below and implement `write` and `download` methods
+
+```js
+var JSExport = require('js-export');
+var jsexport = new JSExport(data, options);
+
+//buffer engine
+var bufferEngine = {
+    write: function(path, done){
+        //codes
+        ...
+    },
+
+    download:function(response, options){
+        //codes
+        ...
+    }
+}
+
+//use export engine
+jsexport.use('buffer', bufferEngine);
+
+//then use buffer export engine
+jsexport.writeBuffer(path, done);
+
+```
+
 ## Supported Formats
 - [ ] excel
 - [ ] csv
