@@ -24,8 +24,8 @@ app.get('/exports', function(request, response){
 });
 ```
 
-## Plugin Export Engine
-`js-export` support additional export engine through plugins. To add new export engine do as below and implement `write` and `download` methods
+## Export Engine
+`js-export` support additional export engines through plugins. To add new export engine do as below and implement `write` and `download` methods
 
 ```js
 var JSExport = require('js-export');
