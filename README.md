@@ -12,13 +12,16 @@ $ npm install --save js-export
 
 ## Usage
 ```js
-var exports = require('js-export')(data, options);
+var JSExport = require('js-export');
+var jsexport = new JSExport(data, options);
 
 //export data as excel file
-exports.writeExcel(`<file>`, done);
+jsexport.writeExcel(`<file>`, done);
 
-//download data as excel
-exports.downloadExcel(response, options);
+//download data as excel through http requests
+app.get('/exports', function(request, response){
+   jsexport.downloadExcel(response, options); 
+});
 ```
 
 ## Supported Formats
