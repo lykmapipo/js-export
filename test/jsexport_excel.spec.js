@@ -11,7 +11,6 @@ var expect = chai.expect;
 var generatedPath = path.join(__dirname, 'fixtures', 'generated');
 
 
-
 //jsexport
 var JSExport = require(path.join(__dirname, '..'));
 
@@ -43,7 +42,7 @@ describe('excel engine', function() {
         var simple = path.join(__dirname, 'fixtures', 'simple.xls');
 
         var data =
-            JSON.parse(fs.readFileSync(path.join(__dirname, 'fixtures', 'data.json'), 'utf-8'));
+            JSON.parse(fs.readFileSync(path.join(__dirname, 'fixtures', 'simple.json'), 'utf-8'));
 
         var jsexport = new JSExport(data);
 
