@@ -1,10 +1,4 @@
 *.swp
 .DS_Store
 node_modules/
-npm-debug.log
-sampling/
-farmer.json
-phone.json
-registration.json
-water.json
-waterComplex.json
+*.log
