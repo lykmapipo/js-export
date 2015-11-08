@@ -11,6 +11,8 @@ var excel = require(path.join(__dirname, 'lib', 'excel'));
 var defaults = {
     sheet: 'Sheet',
     flat: true,
+    joinFieldName: true,
+    fieldSeparator: '_',
     multi: false,
     missing: 'NA'
 };
