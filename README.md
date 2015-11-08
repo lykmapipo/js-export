@@ -25,7 +25,7 @@ app.get('/exports', function(request, response){
 ```
 
 ## Export Engine
-`js-export` support additional export engines through plugins. To add new export engine do as below and implement `write` and `download` methods
+Additional export engines can be added as a plugins. It should implement `write` and `download` methods for it to be valid `export engine`.
 
 ```js
 var JSExport = require('js-export');
@@ -67,8 +67,11 @@ Export data to excel format
 - `sheet` default sheet name to use. default to `Sheet`
 - `multi` will put inner plain objects into their own sheet
 
-### csv
+### csv(WIP)
+Export data to csv format
 
-### text
+### text(WIP)
+Export data to text format
 
-### json
+### json(WIP)
+Export data into json format
