@@ -7,6 +7,14 @@ var _ = require('lodash');
 //load default engines
 var excel = require(path.join(__dirname, 'lib', 'excel'));
 
+//defaults options
+var defaults = {
+    sheet: 'Sheet',
+    flat: true,
+    multi: false,
+    missing: 'NA'
+};
+
 /**
  * @constructor
  * @description export js data into different acceptable format  
@@ -19,11 +27,17 @@ function Export(data, options) {
     //normalize options
     options = options || {};
 
+    //merge defaults
+    options = _.merge(defaults, options);
+
     //bind options
     this.options = options;
 
     //bind data
     this.data = data;
+    if (this.data && !_.isArray(this.data)) {
+        this.data = [data];
+    }
 
     //set default engines
     this.use('excel', excel);

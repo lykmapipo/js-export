@@ -52,8 +52,23 @@ jsexport.writeBuffer(path, done);
 
 ```
 
+## Options
+
+- `missing` value to set if object to write does not have the given property. default to `NA`
+- `flat` will flat inner palin object. default to `false`
+
 ## Supported Formats
-- [ ] excel
-- [ ] csv
-- [ ] text
-- [ ] json
+
+### excel
+Export data to excel format
+
+#### Options
+
+- `sheet` default sheet name to use. default to `Sheet`
+- `multi` will put inner plain objects into their own sheet
+
+### csv
+
+### text
+
+### json
