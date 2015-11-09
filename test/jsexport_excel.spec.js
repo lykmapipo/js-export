@@ -86,4 +86,33 @@ describe('excel engine', function() {
 
     });
 
+
+    it('should be able to export data into milti sheet excel file', function(done) {
+        // var filename =
+        //     path.join(generatedPath, Date.now() + '.xls');
+
+        // var simple = path.join(__dirname, 'fixtures', 'simple.xls');
+
+        var data =
+            JSON.parse(fs.readFileSync(path.join(__dirname, 'fixtures', 'simple.json'), 'utf-8'));
+
+        var jsexport = new JSExport(data, {
+            sheet:'contact',
+            multi: true,
+            joinSheetName: true
+        });
+
+        jsexport.writeExcel(function(error) {
+
+            expect(error).to.not.exist;
+            // expect(filename).to.be.a.file().and.not.empty;
+
+            // expect(fs.readFileSync(filename).toString('base64').substr(0, 12))
+            //     .to.be.equal(fs.readFileSync(simple).toString('base64').substr(0, 12));
+
+            done();
+        });
+
+    });
+
 });

@@ -14,8 +14,65 @@ var defaults = {
     joinFieldName: true,
     fieldSeparator: '_',
     multi: false,
+    joinSheetName: false,
     missing: 'NA'
 };
+
+
+function uniqueFields(data) {
+    //collect unique fields
+    var fields = [];
+
+    //collect data fields
+    _.forEach(data, function(value, key) {
+        //obtain fields from plain object data type
+        if (_.isPlainObject(value)) {
+            fields = _.union(fields, _.keys(value));
+        }
+
+        //obtain fields from simple data types
+        if (!_.isPlainObject(value) && _.isString(key)) {
+            fields = _.union(fields, [key]);
+        }
+    });
+
+    //compact fields
+    fields = _.compact(fields);
+
+    return fields;
+}
+
+
+function normalizeFields(data, fields, missing) {
+    //normalize data fields
+    _.forEach(fields, function(field) {
+        if (!_.has(data, field)) {
+            //set missing value
+            data[field] = missing;
+        }
+    });
+
+    return data;
+
+}
+
+function normalize() {
+    //this refer to js-export instance
+
+    /* jshint validthis:true */
+    var self = this;
+
+    var data = [];
+
+    var fields = uniqueFields(this.data);
+
+    _.forEach(this.data, function(value) {
+        data.push(normalizeFields(value, fields, self.options.missing));
+    });
+
+    //set data to normalized data
+    this.data = data;
+}
 
 /**
  * @constructor
@@ -30,7 +87,7 @@ function Export(data, options) {
     options = options || {};
 
     //merge defaults
-    options = _.merge(defaults, options);
+    options = _.merge({}, defaults, options);
 
     //bind options
     this.options = options;
@@ -40,6 +97,9 @@ function Export(data, options) {
     if (this.data && !_.isArray(this.data)) {
         this.data = [data];
     }
+
+    //normalize data structure
+    normalize.call(this);
 
     //set default engines
     this.use('excel', excel);
@@ -64,7 +124,10 @@ Export.prototype.use = function(name, engine) {
 
         //bind export engine functions into export
         this[_method] = function() {
+
+            //invoke export engine method
             return engine[method].apply(this, arguments);
+
         };
 
     }.bind(this));
