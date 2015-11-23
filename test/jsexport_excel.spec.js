@@ -25,7 +25,7 @@ describe('excel engine', function() {
         del.sync([generatedPath + '**']);
     });
 
-    it('should be able enable by default', function() {
+    it('should be enable by default', function() {
         var jsexport = new JSExport();
 
         expect(jsexport.writeExcel).to.exist;
@@ -80,35 +80,6 @@ describe('excel engine', function() {
 
             expect(fs.readFileSync(filename).toString('base64').substr(0, 12))
                 .to.be.equal(fs.readFileSync(farmer).toString('base64').substr(0, 12));
-
-            done();
-        });
-
-    });
-
-
-    it('should be able to export data into milti sheet excel file', function(done) {
-        // var filename =
-        //     path.join(generatedPath, Date.now() + '.xls');
-
-        // var simple = path.join(__dirname, 'fixtures', 'simple.xls');
-
-        var data =
-            JSON.parse(fs.readFileSync(path.join(__dirname, 'fixtures', 'simple.json'), 'utf-8'));
-
-        var jsexport = new JSExport(data, {
-            sheet:'contact',
-            multi: true,
-            joinSheetName: true
-        });
-
-        jsexport.writeExcel(function(error) {
-
-            expect(error).to.not.exist;
-            // expect(filename).to.be.a.file().and.not.empty;
-
-            // expect(fs.readFileSync(filename).toString('base64').substr(0, 12))
-            //     .to.be.equal(fs.readFileSync(simple).toString('base64').substr(0, 12));
 
             done();
         });

@@ -98,6 +98,7 @@ function Export(data, options) {
         this.data = [data];
     }
 
+
     //normalize data structure
     normalize.call(this);
 
